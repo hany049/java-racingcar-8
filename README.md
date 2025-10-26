@@ -57,7 +57,7 @@
 ## 테스트 목록 
 
 ### 입력 및 유효성 테스트
-  - [ ] `NameTrialValidationTest` 입력과 유효성 검증에 대한 테스트
+  - [X] `NameTrialValidationTest` 입력과 유효성 검증에 대한 테스트
     - `NameParser` 
       - 이름이 정상적으로 분리되는지 테스트
       - 조건에 맞지 않은 입력이 들어왔을 때 `IllegalArgumentException`을 발생시키는지 테스트
@@ -65,7 +65,7 @@
       - 조건에 맞지 않은 입력이 들어왔을 때 `IllegalArgumentException`을 발생시키는지 테스트
 
 ### 자동차 테스트
-  - [ ] `CarTest` 자동차의 전진과 정지 테스트
+  - [X] `CarTest` 자동차의 전진과 정지 테스트
     - `Car`
     - `MakeCar`
     - `Racing`
@@ -73,6 +73,6 @@
       - 주행 완료 후 최종 위치가 올바른지 테스트
 
 ### 우승자 테스트
-  - [ ] `WinnerTest` 우승자 판별 테스트
+  - [X] `WinnerTest` 우승자 판별 테스트
     - `Winner`
       - 공동 우승자 포함 올바르게 판별하는지 테스트
